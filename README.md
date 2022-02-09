@@ -2,7 +2,7 @@
 <html lang="pl">
 <head>
 	<meta charset="utf-8" />
-	<title>Odliczanie dni do ferii zimowych???</title>
+	<title>Odliczanie dni do wakacji???</title>
 	
 	<script type="text/javascript" >
 
@@ -29,7 +29,7 @@
 		
 		document.getElementById("aktualnaData").innerHTML = "Aktualna data: "+dzien+"/"+miesiac+"/"+rok; 
 		document.getElementById("dataWydarzenia").innerHTML = "Data wydarzenia do którego obliczamy liczbę dni: "+endDzien+"/"+endMiesiac+"/"+endRok;
-		document.getElementById("dniDoWydarzenia").innerHTML ="Do końca półrocza  pozostało: "+ dni+"dni";
+		document.getElementById("dniDoWydarzenia").innerHTML ="Do wakacji pozostało: "+ dni+"dni";
 		 
 	}
 	
@@ -42,7 +42,7 @@
 
 <div id="container">
 <div id="topBar">
-Ile dni pozostało do ferii.</div>
+Ile dni pozostało do wakacji.</div>
 	
 	<div id="aktualnaData">...</div> 
 
