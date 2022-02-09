@@ -16,7 +16,7 @@
 		var rok = dzisiaj.getFullYear();
 		var milisekundy = dzisiaj.getTime();
 		
-		var end = new Date("02/14/2022");//data wydarzenia
+		var end = new Date("07/23/2022");//data wydarzenia
 		var endDzien = end.getDate();
 		var endMiesiac = end.getMonth()+1;
 		var endRok = end.getFullYear();
